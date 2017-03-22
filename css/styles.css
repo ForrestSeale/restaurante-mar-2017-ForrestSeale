@@ -1,0 +1,185 @@
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/*UNIVERSALS*/
+
+.raleway-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+.orange-text {
+  color: #F8512F;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.orange-background {
+  background-color: #F8512F;
+}
+
+.light-orange-background {
+  background-color: #FF6633;
+}
+
+.red-text {
+  color: #FF0B05
+}
+
+/*NAVBAR*/
+
+.navbar-default {
+ background-color: transparent;
+ border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+ color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+ color:#f8512f ;
+ background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+ color: #fff;
+ background-color: rgba(0,0,0,0.5);
+}
+
+/*CAROUSEL*/
+
+.item {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.item .btn-warning {
+ background-color: #f8512f ;
+ border-color: #f8512f ;
+}
+
+#wood-background {
+  background-image: url("../img/wood-2.jpg");
+}
+
+#seating-background {
+  background-image: url("../img/restaurant-2.jpg");
+}
+
+#farm-background {
+  background-image: url("../img/farm-2.jpg");
+}
+
+#mainlogo {
+  width: 300px;
+  transform: translate(0, 50%);
+}
+
+/*OUR STORY*/
+
+.year-text {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  font-size: 200px;
+  z-index: -1;
+  color: rgba(150, 150, 150, .2);
+}
+
+#our-story-heading {
+  font-size: 60px;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+/*FOOD REVIEWo*/
+
+#food-review {
+  background-image: url("../img/food_review.jpg");
+  height: 500px;
+  margin-top: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+#food-review>.row>.text-center {/*text box*/
+  background-color: rgba(0, 0, 0, .5);
+  transform: translate(0, 50%);
+  min-height: 150px;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+
+#food-review>.row>.text-center>h1 {
+  font-size: 50px;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#food-review>.row>.text-center>p {
+  font-size: 20px;
+}
+
+/*MENU*/
+
+#menu {
+  background-image: url("../img/black_linen.png");
+  min-height: 800px;
+}
+
+#menu h1 {
+  font-size: 6em;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 20px 12px;
+}
+
+#menu img {
+  width: 100%
+}
+
+.nav-tabs>li>a:hover, .nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent;
+  border-color: #F8512F;
+  color: #F8512F;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #F8512F;
+}
+
+/*CONTACT*/
+
+.checkbox {
+  padding: 20px;
+  background-color: #fff;
+}
+
+form {
+  padding: 10px;
+}
+
+#contact {
+  padding-bottom: 20px;
+}
+
+#contact h1 {
+  font-size: 45px;
+}
+
+#contact>.container-fluid>.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

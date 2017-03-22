@@ -1,17 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Restaurante</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Restaurante</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<!-- navbar starts -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#"><img src="img/name-01.png" alt="Logo" class="img-responsive"></a>
+		    </div>
 
-	<!-- javascript	 -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-</body>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+		        <li><a href="#our-story-heading">Our Story</a></li>
+						<li><a href="#food-review">Review</a></li>
+						<li><a href="#menu">Menu</a></li>
+						<li><a href="#">Contact Us</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<!-- navbar ends -->
+
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div id="wood-background" class="item active">
+		      <img src="img/logo-01.png" class="center-block img-responsive" id="mainlogo" alt="Logo">
+		      <div class="carousel-caption">
+
+		      </div>
+		    </div>
+		    <div id="seating-background" class="item">
+		      <div class="carousel-caption">
+		        <h3>Eat Local</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, soluta autem ducimus esse laboriosam?</p>
+						<button type="button" class="btn btn-warning btn-lg">Learn More</button>
+					</div>
+		    </div>
+
+				<div id="farm-background" class="item">
+		      <div class="carousel-caption">
+						<h3>Farm To Table</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, soluta autem ducimus esse laboriosam?</p>
+						<button type="button" class="btn btn-warning btn-lg">Learn More</button>
+		      </div>
+		    </div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+
+		<!-- story section starts -->
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-6">
+					<h1 class="text-capitalize lobster-text orange-text" id="our-story-heading">Our Story</h1>
+					<h3 class="raleway-text bold">One Man. One Dream.</h3>
+				</div>
+				<div class="col-xs-6">
+					<h1 class="year-text">1989</h1>
+					<p class="raleway-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit praesentium iure provident, doloribus, tenetur temporibus error perspiciatis cupiditate quos eveniet ut cum quis, impedit earum eligendi odit ipsum quod! Aliquid?</p>
+					<p class="raleway-text">Eaque corporis laborum ullam incidunt voluptas non illo nesciunt quas iure rem a, ipsum corrupti dolorem magnam, enim, cumque recusandae id soluta alias tempora nostrum dignissimos cum quam. Earum, nisi.</p>
+					<p class="raleway-text">Ad sunt autem id cumque quo fugiat corrupti enim sint. Recusandae vero officiis mollitia magni vitae eaque nobis quidem, debitis veritatis repudiandae ad cumque totam reiciendis qui laborum et voluptatum.</p>
+					<p class="raleway-text">Ea nobis sint a accusamus similique eius quibusdam enim maiores earum, quidem ab delectus, optio asperiores magni dolores ullam iste veniam natus, obcaecati suscipit harum nostrum! Consequatur, enim commodi libero.</p>
+				</div>
+			</div>
+		</div>
+		<!-- our story ends -->
+		<!-- food review starts -->
+		<div class="container-fluid" id="food-review">
+			<div class="row">
+				<div class="text-center col-sm-offset-2 col-sm-8">
+					<h1 class="orange-text lobster-text">Fresno Bee</h1>
+					<p class="white-text raleway-text">"The freshest and best ingredients come together to make some of the best food I have ever ate. You can really taste the Central Valley in every bite"</p>
+				</div>
+			</div>
+		</div>
+		<!-- food review ends -->
+		<!-- menu section starts -->
+		<div class="container-fluid" id="menu">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h1 class="lobster-text white-text text-center">Menu</h1>
+				  <!-- Nav tabs -->
+				  <ul class="nav nav-tabs nav-justified" role="tablist">
+				    <li role="presentation" class="active"><a href="#appetizer" aria-controls="home" role="tab" data-toggle="tab" class="uppercase orange-text">Appetizers</a></li>
+				    <li role="presentation"><a href="#lunch" aria-controls="profile" role="tab" data-toggle="tab" class="uppercase orange-text">Lunch</a></li>
+				    <li role="presentation"><a href="#dinner" aria-controls="messages" role="tab" data-toggle="tab" class="uppercase orange-text">Dinner</a></li>
+				    <li role="presentation"><a href="#dessert" aria-controls="settings" role="tab" data-toggle="tab" class="uppercase orange-text">Dessert</a></li>
+				  </ul>
+
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active fade in" id="appetizer">
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/dip.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 1</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/eggplant.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 2</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/meat.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 3</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/bruschetta.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 4</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane fade" id="lunch">
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/dip.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 1</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/eggplant.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 2</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/meat.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 3</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/bruschetta.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 4</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+						</div>
+				    <div role="tabpanel" class="tab-pane fade" id="dinner">
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/dip.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 1</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/eggplant.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 2</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/meat.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 3</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/bruschetta.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 4</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane fade" id="dessert">
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/dip.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 1</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/eggplant.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 2</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/meat.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 3</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+							<div class="col-sm-3 col-xs-6 menu-item">
+			    			<img src="img/bruschetta.jpg" alt="Spinach Dip" class="img-thumbnail">
+			    			<h3 class="text-center">Appetizer 4</h3>
+			    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tempora blanditiis consequuntur laboriosam aspernatur necessitatibus temporibus esse ab accusamus, laborum corporis ratione, deserunt dolor.</p>
+			    		</div>
+						</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<!-- menu section ends -->
+		<!-- contact section starts -->
+		<div class="container-fluid orange-background" id="contact">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 white-text">
+						<h1 class="bold">CONTACT US</h1>
+						<p class="raleway-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A numquam, non in blanditiis praesentium, enim dolorem ut suscipit reprehenderit quo, aliquam rerum facilis perferendis nesciunt vitae, natus omnis alias eum!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 col-sm-offset-2 light-orange-background">
+						<form>
+							<div class="form-group">
+						    <label for="exampleInputName1" class="white-text">Name: <span class="red-text">*</span></label>
+						    <input type="name" class="form-control" id="exampleInputName1">
+						  </div>
+							<div class="form-group">
+						    <label for="exampleInputEmail1" class="white-text">Email: <span class="red-text">*</span></label>
+						    <input type="email" class="form-control" id="exampleInputEmail1">
+						  </div>
+							<div class="form-group">
+						    <label for="exampleInputSubject1" class="white-text">Subject:</label>
+						    <input type="subject" class="form-control" id="exampleInputSubject1">
+						  </div>
+							<!-- text area -->
+							<label for="textarea" class="white-text">Message: <span class="red-text">*</span></label>
+							<textarea class="form-control" rows="3" id="textarea"></textarea>
+							<!-- text area ends -->
+							<div class="checkbox">
+						    <label>
+						      <input type="checkbox"> I'm Not A Robot
+						    </label>
+						  </div>
+						  <button type="submit" class="btn btn-default center-block">Send Message!</button>
+							<p class="text-center white-text">All fields marked with <span class="red-text">*</span> are required</p>
+						</form>
+					</div>
+					<div class="col-sm-4">
+						<address class="white-text">
+							<span class="bold">RESTAURANTE</span><br>
+							123 Fulton St.<br>
+							Fresno, CA. 93728<br>
+							P:(123) 456-7890<br>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.6043775818766!2d-119.78794368518065!3d36.732061679962605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4f58091%3A0xf082a7e633ee41f0!2s700+Van+Ness+Ave%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1490154262752" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</address>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- contact section ends -->
+
+
+
+
+		<!-- javascript	 -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
 </html>
